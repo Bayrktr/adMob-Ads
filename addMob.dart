@@ -39,7 +39,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   void _createInterstitialAd() {
     InterstitialAd.load(
-      adUnitId: "ca-app-pub-3940256099942544/1033173712",
+      adUnitId: "ca-app-pub-3940256099942544/1033173712", // test id
       request: AdRequest(),
       adLoadCallback: InterstitialAdLoadCallback(
         onAdLoaded: (InterstitialAd ad) {
